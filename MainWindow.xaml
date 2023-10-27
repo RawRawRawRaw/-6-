@@ -1,0 +1,34 @@
+﻿<Window x:Class="пр6_Головиной.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:пр6_Головиной"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="авто 1" HorizontalAlignment="Left" Margin="38,25,0,0" VerticalAlignment="Top" Height="35" Width="146"/>
+        <Label Content="марка (цифра)" HorizontalAlignment="Left" Margin="38,68,0,0" VerticalAlignment="Top" Height="35" Width="146"/>
+        <Label Content="цилиндры" HorizontalAlignment="Left" Margin="38,111,0,0" VerticalAlignment="Top" Height="35" Width="146"/>
+        <Label Content="мощность" HorizontalAlignment="Left" Margin="38,153,0,0" VerticalAlignment="Top" Height="36" Width="146"/>
+        <Label Content="авто 2" HorizontalAlignment="Left" Margin="38,226,0,0" VerticalAlignment="Top" Height="36" Width="146"/>
+        <Label Content="марка (цифра)" HorizontalAlignment="Left" Margin="38,269,0,0" VerticalAlignment="Top" Height="36" Width="146"/>
+        <Label Content="цилиндры" HorizontalAlignment="Left" Margin="38,312,0,0" VerticalAlignment="Top" Height="35" Width="146"/>
+        <Label Content="мощность" HorizontalAlignment="Left" Margin="38,355,0,0" VerticalAlignment="Top" Height="35" Width="146"/>
+        <TextBox x:Name="stamp1" HorizontalAlignment="Left" Margin="192,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" TextChanged="TextBox_TextChanged" Height="25"/>
+        <TextBox x:Name="cylinders1" HorizontalAlignment="Left" Margin="192,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" TextChanged="TextBox_TextChanged" Height="25"/>
+        <TextBox x:Name="power1" HorizontalAlignment="Left" Margin="192,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" TextChanged="TextBox_TextChanged" Height="26"/>
+        <TextBox HorizontalAlignment="Left" Margin="192,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" TextChanged="TextBox_TextChanged" Height="25"/>
+        <TextBox x:Name="stamp2" HorizontalAlignment="Left" Margin="192,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" TextChanged="TextBox_TextChanged" Height="25"/>
+        <TextBox x:Name="cylinders2" HorizontalAlignment="Left" Margin="192,317,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" TextChanged="TextBox_TextChanged" Height="25"/>
+        <TextBox x:Name="power2" HorizontalAlignment="Left" Margin="192,360,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" TextChanged="TextBox_TextChanged" Height="25"/>
+        <Label Content="1 авто круче 2?" HorizontalAlignment="Left" Margin="611,36,0,0" VerticalAlignment="Top" Height="38" Width="161"/>
+        <TextBox x:Name="comp" HorizontalAlignment="Left" Margin="604,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" TextChanged="TextBox_TextChanged" Height="26"/>
+        <Button Click="think_Click" Content="подумать" HorizontalAlignment="Left" Margin="604,137,0,0" VerticalAlignment="Top" Height="56" Width="175" />
+        <Button Click="power1_Click" Content="увеличить&#xD;&#xA;мощность на 1" HorizontalAlignment="Left" Margin="394,140,0,0" VerticalAlignment="Top" Height="50" Width="161" />
+        <Button Click="power2_Click"  Content="увеличить&#xA;мощность на 1" HorizontalAlignment="Left" Margin="394,346,0,0" VerticalAlignment="Top" Height="44" Width="161" />
+        <Button Click="save_Click"  Content="сохранить" HorizontalAlignment="Left" Margin="604,229,0,0" VerticalAlignment="Top" Height="54" Width="175" />
+        <Button Click="open_Click"  Content="открыть" HorizontalAlignment="Left" Margin="604,336,0,0" VerticalAlignment="Top" Height="54" Width="175" />
+
+    </Grid>
+</Window>
